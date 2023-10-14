@@ -1,0 +1,52 @@
+.divnav {
+    display: flex;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .nav1 li,
+  .nav2 li {
+    color: blue;
+    float: left;
+    padding: 10px;
+    margin-top: 27px;
+    list-style: none;
+    font-size: 18px;
+  }
+  
+  .divnav1 {
+    align-content: left;
+  }
+  
+  .divnav2 {
+    margin-left: auto;
+    padding-right:50px;
+  }
+  
+  footer {
+    text-align: center;
+    clear: both;
+    margin-top: 20px;
+  }
+  
+  a:hover {
+    color: orange;
+  }
+  
+  .imgclass {
+    max-width: 40%;
+    text-align: center; /* Center the content horizontally */
+    margin: 0 auto; /* Center the content vertically and horizontally */
+  }
+  
+  .imgdiv {
+    height: 350px;
+    width: 70%;
+  }
+  .gitimg{
+    width:18px;
+    height:18px;
+  }
